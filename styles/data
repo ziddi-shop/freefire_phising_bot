@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+.container{
+    background-image: url('ff.jpg');
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid white;
+    height: 100vh;
+    background-size: cover;
+}
+.login-box{
+    max-width: 90%;
+    min-height:300px;
+    margin: auto;
+    border-radius: 12px;
+    background-image: url('in.jpg');
+    position: relative;
+    background-size: cover;
+    top: 30%;
+    transform: translate(0 , -50%);
+    color: white;
+    box-shadow: 4px 4px 10px black;
+}
+
+.heading{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin: 40px auto;
+    max-width: 80%;
+    height: 40px;
+    display: flex;
+    border-bottom: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.inputs{
+    margin: 10px 0;
+}
+label{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+input{
+    padding: 8px 22px;
+    border-radius: 8px;
+    background-color: rgb(5, 178, 231);
+    border: 1px solid black;
+    font-weight: bold;
+    outline: none;
+}
+
+.btn-change{
+    background-color: rgb(5, 178, 231);
+    color: black;
+    padding: 6px 16px;
+    border-radius: 8px 0px 8px 0;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: space-between;
+}
+
+input::placeholder{
+    font-weight: bold;
+    color: black;
+    outline: none;
+}
+
+.header{
+    max-width: 140px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+.header img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+.help p{
+    color: white;    
+    font-weight: 800;
+    margin: 10px 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.help p a{
+    text-decoration: underline;
+    font-weight: 800;
+    color: rgb(5, 178, 231);
+}
